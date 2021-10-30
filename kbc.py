@@ -49,7 +49,7 @@ for i in range(0,len(questions)):
             print(a,answers[i][j])
             if a==4:
                 if l==0:
-                    chance=input('Do you want 50-50')
+                    chance=input('Do you want 50-50     =>  yes  or  no ')
                     if chance =='yes':
                         q=0
                         p=0
